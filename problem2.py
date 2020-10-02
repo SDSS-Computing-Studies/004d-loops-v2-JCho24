@@ -1,6 +1,6 @@
 #! python
 
-a = input("Enter a number: ")
+a = input("Enter a number: ").strip()
 a = int(a)
 t = a
 h = a + 1

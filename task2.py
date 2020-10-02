@@ -2,8 +2,10 @@
 
 p = input("Enter a name: ").strip()
 
-people = ("Angela", "Dawson", "Max", "Daquavis")
-for i in people:
-    if p == i:
-        print("It's a match")
-        break
+nameList = ("Lebron","Kobe","Michale","Shaq","Dennis")
+for i in nameList:
+        if i == p:
+         print("That name is on the list")
+         break
+else:
+ print("That name is not on the list")
