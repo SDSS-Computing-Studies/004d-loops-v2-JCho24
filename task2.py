@@ -1,6 +1,6 @@
 #! python
 
-p = input("Enter a name: ")
+p = input("Enter a name: ").strip()
 
 people = ("Angela", "Dawson", "Max", "Daquavis")
 for i in people:
