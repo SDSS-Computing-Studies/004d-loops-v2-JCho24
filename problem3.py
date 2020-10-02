@@ -1,10 +1,10 @@
 #! python
 
-a = int(input("int number that is smaller than 10: "))
-
+a = input("int number that is smaller than 10: ").strip()
+a = int(a)
 b = 1
 
-print("The sum of the series is ", end="")
+print("the sum of the series is ", end="")
 for i in range(0,a):
     print(b, end="")
     
